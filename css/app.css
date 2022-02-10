@@ -13,6 +13,51 @@ section{
     background-color: #ddd;
     min-width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
 }
+
+.slider-wrapper {
+    width: 600px;
+    height: 350px;
+    background-color: #131313;
+    
+}
+
+.controller-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100px;
+    background-color: #3d2424;
+    position: relative;
+
+}
+
+.controller-item{
+    height: calc(350px / 4);
+    background-color: rgb(33, 5, 112);
+    border: 1px solid white;
+}
+
+.arrows{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.arrows > div{
+    padding: 5px;
+}
+
+
 
 
